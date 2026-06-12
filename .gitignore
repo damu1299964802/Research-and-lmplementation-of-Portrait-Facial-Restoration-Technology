@@ -1,0 +1,42 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local settings
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Datasets and generated artifacts
+datasets/
+result/
+results/
+evaluation_results/
+
+# Large model/cache directories
+insightface_models/
+F_/
+
+# Heavy checkpoint/model formats
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.zip
+
+# Logs and notebooks
+*.log
+*.out
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
