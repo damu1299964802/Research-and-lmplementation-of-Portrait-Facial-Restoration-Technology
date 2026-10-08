@@ -268,6 +268,3 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## GitHub 上传说明
-
-`.gitignore` 已排除数据、训练结果、缓存和大体积模型文件，避免触发 GitHub 单文件 100MB 限制。若后续需要发布大模型权重，建议使用 GitHub Releases、对象存储或 Git LFS。
